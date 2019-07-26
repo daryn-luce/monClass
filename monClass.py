@@ -1,11 +1,11 @@
 from modules.Animals import Dog, Cat, Lion
 
 keegLion = Lion('Keegan','Silver','Extra Large',33)
-darLion = Lion('Daryn','Milky White','Scrawny',34)
-randLion = Lion()
+darDog = Dog('Daryn','Milky White','Scrawny',34)
+randCat = Cat()
 
-randLion.setRandom()
+randCat.setRandom()
 
 print(keegLion.getDescription())
-print(darLion.getDescription())
-print(randLion.getDescription())
+print(darDog.getDescription())
+print(randCat.getDescription())
